@@ -53,3 +53,7 @@ dectree.fit(X_train,y_train)
 predTree = dectree.predict(X_test)
 
 print("DecisionTrees's Accuracy: ", metrics.accuracy_score(y_test, predTree))
+
+
+report=classification_report(y_test,predTree)
+print(report)
