@@ -15,7 +15,7 @@ from tensorflow import keras
 
 def bank_deep_learning_model():
     
-    bank_data= pd.read_csv(r'C:\Users\DeepakShenoy\Desktop\Churn_Modelling.csv')
+    bank_data= pd.read_csv()
     print(bank_data)
 
     bank_data=bank_data.drop('CustomerId', axis='columns')
