@@ -25,7 +25,7 @@ import glob
 # nifty = get_history(symbol='NIFTY 50', start=date(2010,1,1), end=date.today(), index=True)
 
 
-path =r'C:\Users\DeepakShenoy\Desktop\Quantitative Research\glob_files\nifty'
+path =r''
 filenames = glob.glob(path + "/*.csv")
 
 dfs = []
